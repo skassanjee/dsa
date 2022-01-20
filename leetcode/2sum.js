@@ -1,4 +1,4 @@
-const target = 9
+const target = 6
 const arr1 = [1, 2, 3, 4, 5]
 
 const twoSum = (array ) => {
