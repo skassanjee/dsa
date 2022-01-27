@@ -25,8 +25,17 @@ Hash Collisions
 3. slows down access to memory since the list in the address 
 has to be iterated
 
+hash functions
+1. should avoid collisons
+2. should be fast
 Keys
 Can be any data structure
 In JS (maps allow this)
+
+collisions
+1. chaining - using linked lists
+
+2. open addressing - linear probing
+    - key value pairs are stored in the array
 */
 
