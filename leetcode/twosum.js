@@ -1,3 +1,4 @@
+    
 const numbers = [2, 3, 15, 6, 9, 4]
 const total = 7
 
@@ -13,14 +14,21 @@ let needed = target - current
 
 if(!obj[needed]){
 
-
-	obj[current] = nums[i]
+	obj[current] = i
 }
 
 else{
 	return [obj[needed], i]
 }
+
+
+
 }
+
+
+
+
+
 
 }
 
