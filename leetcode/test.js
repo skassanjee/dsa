@@ -1,27 +1,15 @@
-const numbers = [2, 3, 15, 6, 9, 4]
-const total = 7
+class car {
+	constructor(make, model){
+		this.make = make;
+		this.model = model;
+	}
 
-const twoSum = (nums, target) => {
-
-let obj = {}
-
-for(i = 0; i < nums.length; i++){
-
-let current = nums[i]
-let needed = target - current
-
-
-if(!obj[needed]){
-
-
-	obj[current] = nums[i]
+	story(){
+		console.log(`The car in this object is a ${this.model} made by ${this.make}`)
+	}
 }
 
-else{
-	return [obj[needed], i]
-}
-}
+const chevyCobalt = new car('chevy', 'cobalt')
 
-}
-
-console.log(twoSum(numbers, total))
+console.log(chevyCobalt)
+console.log(chevyCobalt.story())

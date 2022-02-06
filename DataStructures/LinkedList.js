@@ -20,10 +20,12 @@ class LinkedList{
 
 //insert first node
 insertFirst(data){
+    this.size += 1
     this.head = new Node(data, this.head);
 
+
 }
-//inser last node
+//insert last node
 
 //insert at index
 
@@ -40,5 +42,5 @@ insertFirst(data){
 
 const ll = new LinkedList();
 ll.insertFirst(100)
-
+ll.insertFirst(1)
 console.log(ll)
